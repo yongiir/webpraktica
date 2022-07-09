@@ -4,27 +4,55 @@
     <meta charset="UTF-8">
     <title>SITENAME</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9f959ef68a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="header__logo"><p>sitename</p></div>
+    <header class="header">
+        <div class="header__logo"><b><p>sitename</p></b></div>
+        <div class="header__title"><p><i>my first web page</i></p></div>
+        <i class="fa fa-key" aria-hidden="true"></i>
+        <div class="header__login"><p><i>login</i></p></div>
+        <button>contact me</button>
         <nav>
-            <div class="topnav" id="myTopnav">
+            <div class="topnav" id="myTopnav">              <!zachem id hz>
                 <a href="">HOME<a/>
                 <a href="">ABOUT<a/>
                 <a href="">NEWS<a/>
                 <a href="">PORTFOLIO<a/>
                 <a href="">BLOG<a/>
             </div>
+            <div class=header__search><p>search</p></div>
+            <i class="fa fa-search" aria-hidden="true"></i>
         </nav>
     </header>
-    
-    
+    <article class="article">
+        <h1 class="article__h1">What 10 things should you do every day to improve your life&#63;</h1>
+        <h2 class="article__text">Learning another language can keep your mind sharp. Music lessons increase intelligence. Challenging your beliefs strengthens your mind. Increasing willpower just takes a little effort each day and it's more responsible for your success</h2>
+        <p class=article__listname><b>Key features</b></p>
+        <ul>
+            <li class=article__listelement>It will make you happier.</li>
+            <li class=article__listelement>It will improve your relationships.</li>
+            <li class=article__listelement>It can make you a better person.</li>
+            <li class=article__listelement>It can make life better for everyone around you.</li>
+        </ul>
+        <div class="recentnews"><p>recent news</p></div>
+    <nav>
+        <div class=news>
+            <div class=news__post><img class=news__picture src="\image\post1.png" alt="Sea and rocks"><a href="">Being in nature reduces stress, makes you more creative</a></div>
+            <div class=news__post><img class=news__picture src="\image\post2.png" alt="Trees on sunset"><a href="">Usability Testing for Mobile Is Easy</a></div>
+            <div class=news__post><img class=news__picture src="\image\post3.png" alt="Perspective building's windows"><a href="">Infinite Scrolling Is Not for Every Website</a></div>
+            <div class=news__post><img class=news__picture src="\image\post4.png" alt="Trees and mountains"><a href="">Ecommerce UX: 3 Design Trends to Follow and 3 to Avoid</a></div>
+            <div class=news__post><img class=news__picture src="\image\post5.png" alt="Boat on water"><a href="">University Websites: Top 10 Design Guidelines</a></div>
+            <div class=news__post><img class=news__picture src="\image\post6.png" alt="Land road and trees"><a href="">University Websites: Top 10 Design Guidelines</a></div>
+        </div>
+    </nav>
+    <footer><i class="fa-regular fa-angle-up"></i><a href="">top</a></footer>
     
     
     <script src="script.js"></script>
 </body>
-</html>    
+</html>
