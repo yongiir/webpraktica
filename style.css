@@ -9,11 +9,13 @@ li{
     list-style: none;
 }
 body{
-    font-family: 'PT Serif', serif;
     font-family: 'Oswald', sans-serif;
-    font-family: 'font awesome', ?;
+    font-family: 'PT Serif', serif;
 }
-header{
+.header{
+    &__title{
+        
+    }
     width: 100%;
     background: #fff;
     display: flex;
@@ -21,14 +23,58 @@ header{
 .header__logo{
     text-transform: uppercase;
     color: #eb3c00;
-    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
     font-size: 48px;
     cursor: pointer;
     margin-top: 30px;
     margin-left: 10.9%;
 }
+.header__title{
+    color: #282828;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+.header__login{
+    text-transform: uppercase;
+    color: #282828;
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    position: relative;
+
+}
 nav{
     margin-top: 137px;
     margin-top: 5.3%;
     
+}
+.article__h1{
+    text-transform: capitalize;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 48px;
+}
+.article__text{
+    color: #282828;
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+.article__listname{
+    color: #282828;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+.article__listelement{
+    color: #282828;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    margin-left: 10.9%;
+    list-style-type: disc;
+}
+.recentnews{
+    text-transform: uppercase;
+    color: #eb3c00;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
 }
