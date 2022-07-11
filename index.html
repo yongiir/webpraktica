@@ -12,45 +12,76 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__logo"><b><p>sitename</p></b></div>
-        <div class="header__title"><p><i>my first web page</i></p></div>
-        <i class="fa fa-key" aria-hidden="true"></i>
-        <div class="header__login"><p><i>login</i></p></div>
-        <button>contact me</button>
-        <nav>
-            <div class="topnav" id="myTopnav">              <!zachem id hz>
-                <a href="">HOME<a/>
-                <a href="">ABOUT<a/>
-                <a href="">NEWS<a/>
-                <a href="">PORTFOLIO<a/>
-                <a href="">BLOG<a/>
-            </div>
+        <div class="flex-container">
+          <div class="flex-container-logo">
+            <div class="header__logo"><b><p>sitename</p></b></div>
+            <div class="header__title"><p><i>my first web page</i></p></div>
+          </div>
+          <div class="flex-container-buttons">
+            <div class="header__key-icon"><i class="fa fa-key" aria-hidden="true"></i></div>
+            <div class="header__login"><p><i>login</i></p></div>
+            <div class="header__contact-me"><i>contact me</i></div>
+          </div>
+        </div>
+        <div class="flex-container-2"> <!rename>
+          <div class="topdiv">              <!zachem id hz>
+             <a class="menu-page">HOME<a/>
+             <a class="menu-page">ABOUT<a/>
+             <a class="menu-page">NEWS<a/>
+             <a class="menu-page">PORTFOLIO<a/>
+             <a class="menu-page">BLOG<a/>
+          </div>
+          <div class=header__search-box>
             <div class=header__search><p>search</p></div>
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </nav>
-    </header>
+            <div class=header__search-icon><i class="fa fa-search" aria-hidden="true"></i></div>
+          </div>
+         </div>
+    </div>
+    </header>             
     <article class="article">
         <h1 class="article__h1">What 10 things should you do every day to improve your life&#63;</h1>
         <h2 class="article__text">Learning another language can keep your mind sharp. Music lessons increase intelligence. Challenging your beliefs strengthens your mind. Increasing willpower just takes a little effort each day and it's more responsible for your success</h2>
-        <p class=article__listname><b>Key features</b></p>
+        <p class=article__list-name><b>Key features</b></p>
         <ul>
-            <li class=article__listelement>It will make you happier.</li>
-            <li class=article__listelement>It will improve your relationships.</li>
-            <li class=article__listelement>It can make you a better person.</li>
-            <li class=article__listelement>It can make life better for everyone around you.</li>
+            <li class=article__list-element>It will make you happier.</li>
+            <li class=article__list-element>It will improve your relationships.</li>
+            <li class=article__list-element>It can make you a better person.</li>
+            <li class=article__list-element>It can make life better for everyone around you.</li>
         </ul>
-        <div class="recentnews"><p>recent news</p></div>
+        <div class="recent-news"><p>recent news</p></div>
+    </article>
     <nav>
         <div class=news>
-            <div class=news__post><img class=news__picture src="\image\post1.png" alt="Sea and rocks"><a href="">Being in nature reduces stress, makes you more creative</a></div>
-            <div class=news__post><img class=news__picture src="\image\post2.png" alt="Trees on sunset"><a href="">Usability Testing for Mobile Is Easy</a></div>
-            <div class=news__post><img class=news__picture src="\image\post3.png" alt="Perspective building's windows"><a href="">Infinite Scrolling Is Not for Every Website</a></div>
-            <div class=news__post><img class=news__picture src="\image\post4.png" alt="Trees and mountains"><a href="">Ecommerce UX: 3 Design Trends to Follow and 3 to Avoid</a></div>
-            <div class=news__post><img class=news__picture src="\image\post5.png" alt="Boat on water"><a href="">University Websites: Top 10 Design Guidelines</a></div>
-            <div class=news__post><img class=news__picture src="\image\post6.png" alt="Land road and trees"><a href="">University Websites: Top 10 Design Guidelines</a></div>
+          <div class=news__post>
+              <img class=news__picture src="image/post1.png" alt="Land road and trees">
+              <a class=news__text href="">Being in nature reduces stress, makes you more creative</a>
+          </div>
+          <div class=news__post>
+              <img class=news__picture src="image/post2.png" alt="Land road and trees">
+              <a class=news__text href="">Usability Testing for Mobile Is Easy</a>
+          </div>
+          <div class=news__post>
+              <img class=news__picture src="image/post3.png" alt="Land road and trees">
+              <a class=news__text href="">Infinite Scrolling Is Not for Every Website</a>
+            </div>
+          <div class=news__post>
+              <img class=news__picture src="image/post4.png" alt="Land road and trees">
+              <a class=news__text href="">Ecommerce UX: 3 Design Trends to Follow and 3 to Avoid</a>
+            </div>
+          <div class=news__post>
+              <img class=news__picture src="image/post5.png" alt="Land road and trees">
+              <a class=news__text href="">University Websites: Top 10 Design Guidelines</a>
+            </div>
+          <div class=news__post>
+              <img class=news__picture src="image/post6.png" alt="Land road and trees">
+              <a class=news__text href="">University Websites: Top 10 Design Guidelines</a>
+            </div>
         </div>
     </nav>
-    <footer><i class="fa-regular fa-angle-up"></i><a href="">top</a></footer>
+    <footer class=footer>
+      <i class="fa-regular fa-angle-up"></i>
+      <a class=footer__text href="">top</a> 
+    </footer>
     
     
     <script src="script.js"></script>
